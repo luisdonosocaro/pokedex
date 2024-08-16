@@ -17,18 +17,15 @@ npm i -g @nestjs/cli
 ````
 docker-compose up -d
 ````
-5. Reconstruir la base de datos con la semilla
+5. Clonar archivo ```__.env.template__``` y renombrar la copia  a ```__.env__```
+6. Llenar las variables de entorno definidas en el ```.env````
+7. Reconstruir la base de datos con la semilla
 ````
 http://localhost:3000/api/v2/seed
 ````
-
 
 ## Stack usado
 * MongoDB
 * Nest
 
 
--Hola niña- dijo el hombre desde la esquina
--Hola...- respondió ella con timidez.
-
-Era de esperarse. Quien le saludaba era alguien sumamente inquietante, lo que prendía todas las alertas de sus sentidos. "Este hombre es peligroso" le susurraba esa voz interior que generalmente estaba apagada
